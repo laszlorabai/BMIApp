@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BMIApp</string>
+    <string name="register">Regisztráció</string>
+    <string name="login">Belépés</string>
+    <string name="password">Jelszó</string>
+    <string name="userName">Felhasználónév</string>
+    <string name="title_activity_register">RegisterActivity</string>
+</resources>
