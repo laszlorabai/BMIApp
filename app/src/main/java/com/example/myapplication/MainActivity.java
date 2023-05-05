@@ -2,6 +2,7 @@ package com.example.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -32,5 +33,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void register(View view) {
+        Intent register = new Intent(this, RegisterActivity.class);
+        startActivity(register);
     }
 }
