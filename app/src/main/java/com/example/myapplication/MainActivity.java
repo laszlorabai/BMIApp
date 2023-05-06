@@ -10,6 +10,7 @@ import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
     private static final String LOG_TAG = MainActivity.class.getName();
+    private static final int REGISTER_KEY = 404;
 
     EditText userNameET;
     EditText passwordET;
@@ -18,22 +19,23 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        EditText userNameET = findViewById(R.id.editTextUserName);
-        EditText passwordET = findViewById(R.id.editTextPassword);
+        userNameET = findViewById(R.id.editTextUserName);
+        passwordET = findViewById(R.id.editTextPassword);
     }
 
-    public void login(View view){
+    public void login(View view) {
 
 
         String userName = userNameET.getText().toString();
         String password = passwordET.getText().toString();
 
-        Log.i(LOG_TAG, "Bejelentkezett: " + userName + ", jelszo:" + password );
+        Log.i(LOG_TAG, "Bejelentkezett: " + userName + ", jelszo:" + password);
     }
 
 
     public void register(View view) {
         Intent register = new Intent(this, RegisterActivity.class);
+        register.putExtra("REGISTER_KEY", 404);
         startActivity(register);
     }
 }
