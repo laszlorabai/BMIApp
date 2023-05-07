@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "651367401453",
+    "project_id": "bmiapp-e21ba",
+    "storage_bucket": "bmiapp-e21ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:651367401453:android:412117e261d88570d709e4",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "651367401453-nhv9o1mb312ot4rlro1o3lf2opsk8dsr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication",
+            "certificate_hash": "35717879520f68304f405660d63f8ade5c0cb451"
+          }
+        },
+        {
+          "client_id": "651367401453-47k05g0hb2acebrvjjdtqspt87jdnq67.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOPSelY80nK0EZCEkB93Z4dvdGurqVGMg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "651367401453-47k05g0hb2acebrvjjdtqspt87jdnq67.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

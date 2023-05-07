@@ -10,4 +10,7 @@
     <string name="passwordAgain">Jelszó megerősítése</string>
     <string name="birthDate">Születési Dátum</string>
     <string name="cancel">Mégse</string>
+    <string name="yourWeight">A súlyod</string>
+    <string name="newData">Új adat hozzáadása</string>
+    <string name="logOut">Kijelentkezés</string>
 </resources>
